@@ -1,0 +1,17 @@
+# apktool / 反编译工作目录
+work/
+*_out/
+*.orig
+
+# 改包产物
+dist/
+build/
+*.apk.idsig
+*.signed.apk
+
+# Frida / 调试脚本中的临时文件
+*.log
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
